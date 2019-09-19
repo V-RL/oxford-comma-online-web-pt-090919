@@ -3,3 +3,5 @@ def oxford_comma(array)
   while new_array.length == 2 
   new_array.join("and")
 end
+
+oxford_comma
