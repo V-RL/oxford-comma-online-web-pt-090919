@@ -1,10 +1,5 @@
 def oxford_comma(array)
   new_array = []
-  when new_array > [0]
-    new_array.insert
-    new_array.join
+  while new_array.length = 2 
+  new_array.join("and")
 end
-
-end
-
-oxford_comma("hi, i, dont, think, this, worked")
