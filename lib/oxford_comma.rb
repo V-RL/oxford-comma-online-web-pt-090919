@@ -10,4 +10,4 @@ end
 
 end
 
-oxford_comma("Me, Myself, I")
+oxford_comma()
