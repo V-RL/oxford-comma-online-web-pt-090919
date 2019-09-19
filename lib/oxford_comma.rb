@@ -1,7 +1,6 @@
-def oxford_comma(array)
+def oxford_comma(people)
   new_array = []
-  while new_array.length == 2 
-  new_array.join("and")
+  people.each do |name|
+  new_array.
 end
 
-oxford_comma
