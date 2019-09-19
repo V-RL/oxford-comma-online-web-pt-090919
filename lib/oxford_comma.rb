@@ -3,7 +3,8 @@ def oxford_comma(people)
       return "#{people[0]}"
     elsif people.length == 2 
     return "#{people[0]} and #{people[1]}"
-    
+    elsif people.length > 2 
+    return people[-1].insert(0, "and").join(", ")
   end
     
     
