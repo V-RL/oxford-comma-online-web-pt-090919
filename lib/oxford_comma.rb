@@ -6,7 +6,7 @@ def oxford_comma(people)
     elsif people.length > 2 
      people[-1].insert(0, "and")
   end
-    
+    people.join(", ")
     
 
 end
