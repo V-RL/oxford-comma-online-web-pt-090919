@@ -5,5 +5,10 @@ def oxford_comma(array)
   elsif new_array.length = 3
   new_array.insert(2, "and")
   new_array.join
+else
+  break
+end
 
 end
+
+oxford_comma("Me, Myself, I")
